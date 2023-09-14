@@ -113,11 +113,11 @@ public class ManageStudent {
 	 public ManageStudent AddForm() throws InterruptedException {
 		 
 		 addForm.click();
-		 Thread.sleep(2000);
-		 Addmission_no.sendKeys("101324");
-		 First_Name.sendKeys("Girme");
-		 Last_Name.sendKeys("Abhi");
-		 Father_name.sendKeys("RajaLingam");
+		 Thread.sleep(3000);
+		 Addmission_no.sendKeys("10132");
+		 First_Name.sendKeys("Nutan");
+		 Last_Name.sendKeys("Rathore");
+		 Father_name.sendKeys("Vyas Narayan Rathore");
 		
 		 
 		 Class_name.click();
@@ -135,7 +135,7 @@ public class ManageStudent {
 		    
 		    Thread.sleep(2000);
 		    division.click();
-		    Thread.sleep(1000);
+		    Thread.sleep(3000);
 		    List<WebElement> div_opt=driver.findElements(By.xpath("//li[@role='option']"));
 		    String[] sel_div=new String[div_opt.size()];
 		    for(int i=0; i<div_opt.size();i++) {
@@ -163,10 +163,10 @@ public class ManageStudent {
 				  }
 			  }
 			  
-			  mobile.sendKeys("9876543210");
+			  mobile.sendKeys("9666666690");
 			  
 			  
-			  Thread.sleep(2000);
+			  Thread.sleep(3000);
 			  bus_no.click();
 			  List<WebElement> bus_opt=driver.findElements(By.xpath("//li[@role='option']"));
 				 String[] opt_bus=new String[bus_opt.size()];
@@ -232,8 +232,8 @@ public class ManageStudent {
 						 }
 					 }
 					 
-					 Address.sendKeys("Hyderabad, maruthi nagar, 45-236-125");
-					 Student_Id.sendKeys("404469");
+					 Address.sendKeys("bangalore, electronic city, 45-236-125");
+					 Student_Id.sendKeys("40446");
 					 
 					 Add_status.click();
 					 List<WebElement> add_opt=driver.findElements(By.xpath("//li[@role='option']"));
@@ -253,7 +253,7 @@ public class ManageStudent {
 					     add_date.sendKeys("04/26/2023");
 					     mother_name.sendKeys("alia");
 					     
-					     mother_mobile.sendKeys("9873216540");
+					     mother_mobile.sendKeys("9666666690");
 					     
 					     
 					     hostelDaySch.click();
