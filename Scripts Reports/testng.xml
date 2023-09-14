@@ -3,11 +3,14 @@
 <suite name="Suite">
   <test name="Test">
   <classes>
-    <class name="Script.Login"></class>
-    <class name=""></class>
-    <class name="testCase.SearchStudent"></class>
-    <class name="testCase.LogoutTestCase"></class>
-    <class name="Script.Logout"></class>
+    <class name="org.FaceGenie.Scripts.Login"></class>
+    <class name="org.FaceGenie.Scripts.Dashboard"></class>
+    <class name="org.FaceGenie.Scripts.AttendanceLogs"></class>
+    <class name="org.FaceGenie.Scripts.ManageStudent"></class>
+    <class name="org.FaceGenie.Scripts.SearchStudent"></class>
+    <class name="org.FaceGenie.Scripts.StudentData"></class>
+    <class name="org.FaceGenie.Scripts.Modules"></class>
+    <class name="org.FaceGenie.Scripts.Logout"></class>
   </classes>
   </test> 
 </suite> 
