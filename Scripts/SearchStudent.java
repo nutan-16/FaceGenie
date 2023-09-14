@@ -17,7 +17,7 @@ public class SearchStudent {
 	WebDriver driver;
 	
 	@FindBy(xpath = "//span[normalize-space()='Manage Student']")  
-    WebElement manageStudent;
+    	WebElement manageStudent;
 	
 	@FindBy(xpath="(//div[@aria-haspopup='listbox'])[1]")
 	WebElement Class;
